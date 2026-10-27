@@ -2,9 +2,8 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("<h1>Projeto Node.js na Nuvem</h1><p>Bem-vindo ao meu site!</p>");
+  res.send("<h1>Projeto atualizado!</h1><p>Aplicação Node.js na AWS e Railway</p>");
 });
-
 app.get("/produtos", (req, res) => {
   res.send("<h1>Produtos</h1><ul><li>Teclado</li><li>Mouse</li></ul>");
 });
